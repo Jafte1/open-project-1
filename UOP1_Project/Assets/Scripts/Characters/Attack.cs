@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Attack : MonoBehaviour
 {
+	public float hio = 0f;
 	[SerializeField] private AttackConfigSO _attackConfigSO;
 
 	public AttackConfigSO AttackConfig => _attackConfigSO;
